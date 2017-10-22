@@ -116,7 +116,7 @@ OnLoginCmnd:
 					continue;
 				}	
 			}
-			deletearray .@XT$[[0],getarraysize(.@XT$);
+			deletearray .@XT$[0],getarraysize(.@XT$);
 			.@NextDay = #DRewardCon + 1;
 			explode(.@XT$,.Rewards$[.@NextDay],",");
 		}
